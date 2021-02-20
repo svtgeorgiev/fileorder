@@ -10,7 +10,6 @@ year_list = []
 year_file_list = []
 month_list = []
 month_file_list = []
-temp_dir_list = []
 
 for (dirpath, dirnames, filenames) in walk(root):
     root_file_list.extend(filenames)
